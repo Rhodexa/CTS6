@@ -2,11 +2,12 @@
 Finally! **Chiptune Studio Magic 6** is here! ...why the hype? Well... this is the first fully functional CTS version LOL
 
 ## About
-· AVR Chiptune Studio is a relatively fast wavetable based chiptune-oriented polyphonic synthesizer designed for ATMEGA328P and its family. (i guess it shound work with pretty much any ATMEGAxx8P, the only lmitation is the requirement of Timer2, speed and memory. But i guess that's easily portable to other AVR CPUs). Arduino Pro Mini 3.3v may have some trouble as it has an 8MHz crystal instead of 16MHz or 20Mhz. That may reduce sample rate, making it sound horribly bad. 
+· **AVR Chiptune Studio is a relatively fast wavetable based chiptune-oriented polyphonic synthesizer designed for ATMEGA328P** and its family. (i guess it shound work with pretty much any ATMEGAxx8P, the only lmitation is the requirement of Timer2, speed and memory. But i guess that's easily portable to other AVR CPUs). Arduino Pro Mini 3.3v may have some trouble as it has an 8MHz crystal instead of 16MHz or 20Mhz. That may reduce sample rate, making it sound horribly bad. 
 <br> · CTS provides simple yet versatile dynamic sound for many AVR projects.
 <br> · Two new versions are comming for Blue Pill (STM32F103C8T6) and ESP8266. 
 
 ## News and Features
+ ### CTS:
  · 7 independent voice operators<br>
  · FM mode is now available!<br>
  · Stereo is now possible!<br>
@@ -19,6 +20,10 @@ Finally! **Chiptune Studio Magic 6** is here! ...why the hype? Well... this is t
  · Pre-made wavetables are now written in program memory, freeing RAM space.<br>
  · Your custom wavetables can be easily loaded from outside the library, via <code>#define ADD_CUSTOM_WAVETABLES</code><br>
  
+ ### Tracker:
+  CTS now comes along a Tracker, **CTSTracker2**. Its features are based on DefleMask's format <br>
+  Examples were included too, of course!
+ 
  ## Getting started
  ### Windows users:
  1 - Download the source <br>
@@ -29,4 +34,10 @@ Finally! **Chiptune Studio Magic 6** is here! ...why the hype? Well... this is t
  2 - Install <br>
  3 - <code> #include "CTS6.h" </code> :) <br>
  
- 
+ ## Reference / Manual
+ I included two HTML files along the library. Those contain all you will need to understand CTS. I really, **really** encourage you to go read them, CTS is full of secrets you must know.
+ <br>· References 
+ <br>· Animated Graphics
+ <br>· Solutions to potential common mistakes
+ # 
+ Licence? This is Free-ware, don't worry! :D
