@@ -2,7 +2,7 @@
 Finally! **Chiptune Studio Magic 6** is here! ...why the hype? Well... this is the first fully functional CTS version LOL
 
 ## About
-· **AVR Chiptune Studio is a relatively fast wavetable based chiptune-oriented polyphonic synthesizer designed for ATMEGA328P** and its family. (i guess it shound work with pretty much any ATMEGAxx8P, the only lmitation is the requirement of Timer2, speed and memory. But i guess that's easily portable to other AVR CPUs). Arduino Pro Mini 3.3v may have some trouble as it has an 8MHz crystal instead of 16MHz or 20Mhz. That may reduce sample rate, making it sound horribly bad. 
+· **AVR Chiptune Studio is a relatively fast wavetable based chiptune-oriented polyphonic synthesizer designed for ATMEGA328P** and its family. (i guess it shound work with pretty much any ATMEGAxx8P, the only requirements are Timer2, speed and memory. But i guess that's easily portable to other AVR CPUs). Arduino Pro Mini 3.3v may have some trouble as it has an 8MHz crystal instead of 16MHz or 20Mhz. That may reduce sample rate, making it sound horribly bad. 
 <br> · CTS provides simple yet versatile dynamic sound for many AVR projects.
 <br> · Two new versions are comming for Blue Pill (STM32F103C8T6) and ESP8266. 
 
