@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTSv6.1 Docs — Rhodune! Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.5;
+            letter-spacing: 0.088em;
+        }
+        code{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body style="margin: 0">
+    <div style="display: flex; flex-wrap: nowrap; justify-content: space-between;">
+        <div></div>
+        <div style="background-color: #FFFFFF30; width: calc(100vw - 19rem); max-width: 50rem; padding: 1rem; margin-top: 3rem;">
+            <b>About CTS6</b><br>
+            &nbsp; AVR Chiptune Studio is a  fast wavetable based polyphonic synthesizer designed for ATMEGA328P and its family.
+            It provides simple yet versatile dynamic sound for many AVR projects. Two new version are comming for Blue Pill (STM32F103C8T6) and ESP8266.<br><br>
+
+            <b>News & Features (v6.1)</b>
+            <br> &nbsp; · 6 independent operators are provided
+            <br> &nbsp; · FM mode is now available!
+            <br> &nbsp; · Stereo is now possible!
+            <br> &nbsp; · Each operator have its own envelope generator
+            <br> &nbsp; · global Vibrato & Tremolo is provided 
+            <br> &nbsp; · Glide, and Swipe were added! Go funky!
+            <br> &nbsp; · As fast as we can, letting time free for your code!
+            <br> &nbsp; · Many compiler flags available, making CTS fit your needs
+            <br> &nbsp; · Only Timer2 is used, so you have Timer1 and Timer0 all for your self. Interestingly, Timer2 is used to handle Arduino's <code>tone()</code> function,
+            but you won't be using that anymore, since you now have CTS!
+            <br> &nbsp; · Pre-made wavetables are now written in program memory, freeing RAM space.
+            <br> &nbsp; · Custom wavetables can be easily loaded from outside the library, via <br><code>#define ADD_CUSTOM_WAVETABLES</code><br>
+            <br><br>
+            <b>Details</b><br>
+            &nbsp; A total of 6 (0 ··· 5) operators are available, these can be either used in 
+            additive mode allowing 6 independent voices, or in pairs getting 3 FM capable voices.
+            FM and Additive modes can be independently selected for each pair, so you can use 4 simple voices and
+            1 FM (5 total voices), or 2 FM and 2 simple (4 total), etc. 
+            <br><br> &nbsp; Each voice have two 8-bit attenuators connected to them, each attenuator is directed to each channel accumulator (L and R channels).
+            Effectively allowing stereo capabilities. You can use <br><code>CTS::setStereoLevels(voice, channel_l, channel_r);</code><br> to set these attenuators' values.
+            
+        </div>
+        <div style="width: 17rem;"></div>
+    </div>
+    <div style="position: fixed; right: 0; top: 3rem; background-color: #FFFFFF30; width: 15rem; padding: 1rem;">
+        <b>Index</b>
+        <div style="margin-left: 1rem;">
+            Intro
+        </div>
+    </div>
+    <div style="position: fixed; left: 0; top: 0; background-color: white; width: 100%; height: 3rem; display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-around; box-shadow: 0 5px 10px 0 #00000030;">
+        <div style="margin-left: 1rem; font-weight: bold; letter-spacing: 0.05em;">
+            Chiptune Studio v6.1 (Magic Edition) | <special style="color: #00000050; white-space: nowrap;">Reference & Usage</special>
+        </div>
+        <div style="margin-right: 1rem; font-weight: bold; display: flex; flex-wrap: nowrap; letter-spacing: 0.05em;">
+            <div style="font-size: 0.7rem; margin-right: 0.2rem;"> made by</div>
+            <div>Rhodune! Lab <ctm style="color: tomato">❤</ctm></div>
+        </div>
+    </div>
+</body>
+</html>
