@@ -12,10 +12,8 @@ Finally! **Chiptune Studio Magic 6** is here! ...why the hype? Well... this is t
  · FM mode is now available!<br>
  · Stereo is now possible!<br>
  · Each operator have its own envelope generator<br>
- · global Vibrato & Tremolo is provided <br>
- · Glide, and Swipe were added! Go funky!<br>
  · As fast as we can, letting time free for your code!<br>
- · Many compiler flags available, making CTS fit your needs<br>
+ · Many compiler flags will be available, making CTS fit your needs<br>
  · Only Timer2 is used, so you have Timer1 and Timer0 all for your self. **Fun fact:** Timer2 is used to handle Arduino's <code>tone()</code> function, but you won't be using that anymore, since you now have CTS! (Seriously, don't use it, it may break CTS and you'll have to reinitialize it)<br>
  · Pre-made wavetables are now written in program memory, freeing RAM space.<br>
  · Your custom wavetables can be easily loaded from outside the library, via <code>#define ADD_CUSTOM_WAVETABLES</code><br>
