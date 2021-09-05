@@ -1,3 +1,4 @@
+# This is work in progress. Do you wanna keep working on this? Be part of CTS6 development!
 # CTS6
 Finally! **Chiptune Studio Magic 6** is here! ...why the hype? Well... this is the first fully functional CTS version LOL
 
